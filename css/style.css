@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Box */
+.login-container {
+    width: 320px;
+    padding: 20px;
+    background: #1A1A1A;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Logo Box */
+.logo-box {
+    width: 80px;
+    height: 80px;
+    background: white;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    /*background: #0D8BF0;*/
+    background: #0A0A0A;
+}
+
+/* Register Link */
+.switch-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch-text a {
+    color: #1DA1F2;
+    text-decoration: none;
+}
