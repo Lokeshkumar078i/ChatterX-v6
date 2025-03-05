@@ -1,0 +1,63 @@
+/* Splash Screen */
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Logo Box Like in Image */
+.logo-container {
+    width: 160px;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Soft Corners */
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Logo */
+.splash-logo {
+    width: 120px;
+    height: 100px;
+}
+
+/* App Name */
+.app-name {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    animation: fadeIn 1.8s ease-in-out;
+}
+
+/* Company Tagline */
+.company-tagline {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-out effect */
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Smooth Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
